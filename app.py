@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt
 # Set wide page and add app title
-st.set_page_config(page_title="IPL Granular Data Analysis (2008 - 2024)", layout="wide", initial_sidebar_state='expanded')
+st.set_page_config(page_title="Decode IPL", layout="wide", initial_sidebar_state='expanded')
 
 # Load datasets (matches, deliveries)
 @st.cache_data
